@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FADFA1"
+    tools:context=".BeneficiosActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTiposDePrestamos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="BancaPromex ofrece una variedad de préstamos diseñados para satisfacer sus necesidades financieras. A continuación, se describen los tipos de préstamos disponibles y sus beneficios:
+
+BancaPromex ofrece una variedad de préstamos diseñados para satisfacer sus necesidades financieras. A continuación, se describen los tipos de préstamos disponibles y sus beneficios:
+
+1. **Préstamo Personal**
+- **Monto:** $20,000 - $40,000
+- **Beneficios:**
+  - Tasa de interés competitiva.
+  - Plazos flexibles de hasta 5 años.
+  - Sin penalización por pagos anticipados.
+  - Uso libre del dinero para cualquier necesidad personal.
+
+2. **Préstamo para Negocios**
+- **Monto:** $40,000 - $60,000
+- **Beneficios:**
+  - Tasa de interés preferencial para emprendedores.
+  - Plazos de hasta 10 años.
+  - Asesoría financiera gratuita.
+  - Posibilidad de aumentar el monto del préstamo según el crecimiento del negocio.
+
+3. **Préstamo para Vivienda**
+- **Monto:** $15,000 - $35,000
+- **Beneficios:**
+  - Tasa de interés fija durante todo el plazo.
+  - Plazos de hasta 20 años.
+  - Opción de financiamiento para mejoras y remodelaciones.
+  - Seguro de vida incluido.
+
+En BancaPromex, estamos comprometidos a ofrecer soluciones financieras que se adapten a sus necesidades. ¡Contáctenos hoy mismo para más información!" />
+    </ScrollView>
+
+</FrameLayout>
